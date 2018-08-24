@@ -5,5 +5,5 @@ def reverse_each_word(string)
     reverse_word = word.reverse
     new_string = new_string << word.reverse
   end
-  array
+  return new_string
 end
